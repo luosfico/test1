@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-sep-2015, 1:38:32
+    Author     : LuisOsvaldo
+*/
+    body {
+        font-family: cursive;
+        background-color: #000066; 
+    }
+    marquee {
+        background-color: #ffffff;
+        color: black;
+        font-size: xx-large;
+        animation-direction: normal;
+    }
+    nav{
+        color: cornsilk;
+        font-size: x-large;
+    }
+    section {
+        color: cornsilk;
+        font-size: small;
+    }
+    table{
+        background-color: graytext;
+        font-family: cursive;
+    }
+    

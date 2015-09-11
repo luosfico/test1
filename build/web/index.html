@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Test 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilo.css" media="screen" rel="StyleSheet" type="text/css">
+    </head>
+    <body >
+       <center>
+           <marquee>Test 1 - Herramientas Complementarias de Desarrollo</marquee>
+           <nav>Ingresar los datos Solicitados</nav>
+           <section>
+               
+        <form action="ValidaDatos" method="post">
+            <table border = \"2px\">
+                <tr><td>Nombre</td><td><input type="text" name="nombre" required ></td></tr>
+                <tr><td>Apellido</td><td><input type="text" name="apellido" required ></td></tr>
+                <tr><td>Run</td><td><input pattern="[0-9]{7,8}[0-9Kk]{1}" name="run" required placeholder="Sin puntos ni guión"></td></tr>
+                <tr><td>Numero de Tarjeta</td><td><input pattern="[0-9]{16}" name="tarjeta" required placeholder="sin guión"></td></tr>
+                <tr><td>Fecha de Vencimiento</td><td><input type="month" name="mesano" min="2015-01" max="2050-12" required placeholder="YYYY-MM" ></td></tr></table><br>
+            <input type="submit" name="Enviar" value="Enviar">
+            <input type="reset" value="Borrar datos">
+                        
+        </form></section>
+           <footer><img src=images/logo.png></footer>
+    </center></body>
+</html>
